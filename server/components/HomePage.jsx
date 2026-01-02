@@ -142,9 +142,6 @@ export const HomePage = () => (
         </p>
         <div class="hero-badges">
           <span class="badge">
-            <span class="badge-icon">{Icons.free}</span>完全無料
-          </span>
-          <span class="badge">
             <span class="badge-icon">{Icons.noAds}</span>広告なし
           </span>
           <span class="badge">
