@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=node_modules/wrangler/config-schema.json
+name = "musical-note-calculator-web"
+main = "server/index.jsx"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+# 静的アセット配信
+[assets]
+directory = "./public"
+
+# ドメイン: mnc.ryuya-dev.net

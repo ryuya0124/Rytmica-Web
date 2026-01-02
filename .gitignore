@@ -1,0 +1,49 @@
+# 依存関係
+node_modules/
+
+# Cloudflare Wrangler
+.wrangler/
+.dev.vars
+
+# ビルド出力
+dist/
+
+# ログ
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# 一時ファイル
+*.tmp
+*.temp
+*.bak
