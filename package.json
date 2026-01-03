@@ -2,7 +2,7 @@
   "name": "musical-note-calculator-web",
   "private": true,
   "version": "1.0.0",
-  "description": "Music Note Calculator ランディングページ",
+  "description": "Rytmica ランディングページ",
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",

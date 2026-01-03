@@ -1,6 +1,6 @@
-# Music Note Calculator Web
+# Rytmica Web
 
-Music Note Calculator アプリのランディングページ。
+Rytmica アプリのランディングページ。
 
 ## 🌐 URL
 

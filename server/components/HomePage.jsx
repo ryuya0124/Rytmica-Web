@@ -134,8 +134,8 @@ export const HomePage = () => (
   <>
     <section class="hero">
       <div class="container">
-        <img src="/icon.jpg" alt="Music Note Calculator - 音ゲーマー向け計算ツール" class="hero-icon" />
-        <h1 class="hero-title">Music Note Calculator</h1>
+        <img src="/icon.jpg" alt="Rytmica - 音ゲーマー向け計算ツール" class="hero-icon" />
+        <h1 class="hero-title">Rytmica</h1>
         <p class="hero-subtitle">
           音ゲーマーのための便利ツール。<br />
           BPMと音符の計算、餡蜜の判定確認をサポートします。

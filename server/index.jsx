@@ -5,6 +5,7 @@ import { Header, Footer } from './components/Layout.jsx'
 import { HomePage } from './components/HomePage.jsx'
 import { PrivacyPage } from './components/PrivacyPage.jsx'
 import { TermsPage } from './components/TermsPage.jsx'
+import { SupportPage } from './components/SupportPage.jsx'
 
 const app = new Hono()
 
@@ -12,7 +13,7 @@ const app = new Hono()
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Music Note Calculator",
+  "name": "Rytmica",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "iOS, iPadOS, macOS, Android, Windows, Linux",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
@@ -39,7 +40,7 @@ const BaseLayout = ({ title, description, canonicalPath, children, extraHead }) 
       <meta property="og:url" content={`https://mnc.ryuya-dev.net${canonicalPath}`} />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://mnc.ryuya-dev.net/icon.jpg" />
-      <meta property="og:site_name" content="Music Note Calculator" />
+      <meta property="og:site_name" content="Rytmica" />
       <meta property="og:locale" content="ja_JP" />
       
       {/* Twitter Card */}
@@ -72,7 +73,7 @@ const BaseLayout = ({ title, description, canonicalPath, children, extraHead }) 
 app.get('/', (c) => {
   return c.html(
     <BaseLayout
-      title="Music Note Calculator - 音ゲーマーのための便利ツール"
+      title="Rytmica - 音ゲーマーのための便利ツール"
       description="BPMと音符の計算、餡蜜の判定確認をサポートする音ゲーマー向け便利ツール。完全無料・広告なし・オープンソース。"
       canonicalPath="/"
       extraHead={
@@ -91,8 +92,8 @@ app.get('/', (c) => {
 app.get('/privacy', (c) => {
   return c.html(
     <BaseLayout
-      title="プライバシーポリシー | Music Note Calculator"
-      description="Music Note Calculatorのプライバシーポリシー。本アプリは個人情報を収集しません。"
+      title="プライバシーポリシー | Rytmica"
+      description="Rytmicaのプライバシーポリシー。本アプリは個人情報を収集しません。"
       canonicalPath="/privacy"
       extraHead={<meta name="robots" content="noindex" />}
     >
@@ -105,12 +106,26 @@ app.get('/privacy', (c) => {
 app.get('/terms', (c) => {
   return c.html(
     <BaseLayout
-      title="利用規約 | Music Note Calculator"
-      description="Music Note Calculatorの利用規約。MITライセンスで提供されるオープンソースソフトウェアです。"
+      title="利用規約 | Rytmica"
+      description="Rytmicaの利用規約。MITライセンスで提供されるオープンソースソフトウェアです。"
       canonicalPath="/terms"
       extraHead={<meta name="robots" content="noindex" />}
     >
       <TermsPage />
+    </BaseLayout>
+  )
+})
+
+// サポート
+app.get('/support', (c) => {
+  return c.html(
+    <BaseLayout
+      title="サポート | Rytmica"
+      description="Rytmicaのサポートページ。お問い合わせ・よくある質問はこちら。"
+      canonicalPath="/support"
+      extraHead={<meta name="robots" content="noindex" />}
+    >
+      <SupportPage />
     </BaseLayout>
   )
 })

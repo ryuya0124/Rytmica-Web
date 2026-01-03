@@ -1,5 +1,5 @@
 /* ===================================
-   グローバルスタイル - Music Note Calculator
+   グローバルスタイル - Rytmica
    Aurora UI + Cyberpunk スタイル
    =================================== */
 
@@ -615,6 +615,48 @@ img { max-width: 100%; height: auto; }
   height: 6px;
   background: var(--color-primary);
   border-radius: 50%;
+}
+
+/* === サポートページ === */
+.support-contact {
+  margin: 24px 0;
+}
+
+.support-email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 28px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius-sm);
+  color: var(--color-primary-light);
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.support-email-link:hover {
+  background: rgba(124, 58, 237, 0.2);
+  border-color: var(--color-primary);
+  color: var(--color-secondary);
+  transform: translateY(-2px);
+  box-shadow: var(--glow-primary);
+}
+
+.support-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: var(--color-primary-light);
+}
+
+.support-icon svg {
+  width: 22px;
+  height: 22px;
 }
 
 /* === レスポンシブ === */

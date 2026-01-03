@@ -11,7 +11,7 @@ export const TermsPage = () => (
         
         <div class="legal-section">
           <h2>はじめに</h2>
-          <p>本利用規約（以下「本規約」）は、Music Note Calculator（以下「本アプリ」）の利用条件を定めるものです。</p>
+          <p>本利用規約（以下「本規約」）は、Rytmica（以下「本アプリ」）の利用条件を定めるものです。</p>
         </div>
         
         <div class="legal-section">
@@ -36,7 +36,7 @@ export const TermsPage = () => (
         
         <div class="legal-section">
           <h2>知的財産権</h2>
-          <p>本アプリのソースコードはMITライセンスの下で提供されています。本アプリの名称「Music Note Calculator」およびアイコンに関する権利は、開発者に帰属します。</p>
+          <p>本アプリのソースコードはMITライセンスの下で提供されています。本アプリの名称「Rytmica」およびアイコンに関する権利は、開発者に帰属します。</p>
         </div>
         
         <div class="legal-section">

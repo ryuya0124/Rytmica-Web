@@ -1,4 +1,4 @@
-# Music Note Calculator
+# Rytmica
 # https://mnc.ryuya-dev.net
 
 User-agent: *

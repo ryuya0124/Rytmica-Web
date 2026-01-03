@@ -11,7 +11,7 @@ export const PrivacyPage = () => (
         
         <div class="legal-section">
           <h2>はじめに</h2>
-          <p>Music Note Calculator（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。</p>
+          <p>Rytmica（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。</p>
         </div>
         
         <div class="legal-section">
