@@ -132,7 +132,7 @@ const Icons = {
 // ホームページコンポーネント
 export const HomePage = () => (
   <>
-    <section class="hero">
+    <section class="hero" role="banner" aria-label="アプリ紹介">
       <div class="container">
         <img src="/icon.jpg" alt="Rytmica - 音ゲーマー向け計算ツール" class="hero-icon" />
         <h1 class="hero-title">Rytmica</h1>
@@ -159,9 +159,9 @@ export const HomePage = () => (
       </div>
     </section>
 
-    <section class="features">
+    <section class="features" role="region" aria-labelledby="features-title">
       <div class="container">
-        <h2 class="section-title">主な機能</h2>
+        <h2 id="features-title" class="section-title">主な機能</h2>
         <div class="features-grid">
           <div class="feature-card">
             <div class="feature-icon">{Icons.musicNote}</div>
@@ -197,9 +197,9 @@ export const HomePage = () => (
       </div>
     </section>
 
-    <section class="platforms">
+    <section class="platforms" role="region" aria-labelledby="platforms-title">
       <div class="container">
-        <h2 class="section-title">対応プラットフォーム</h2>
+        <h2 id="platforms-title" class="section-title">対応プラットフォーム</h2>
         <div class="platforms-grid">
           <div class="platform-card">
             <div class="platform-icon">{Icons.apple}</div>

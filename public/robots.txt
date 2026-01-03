@@ -5,6 +5,7 @@ User-agent: *
 Allow: /
 Disallow: /privacy
 Disallow: /terms
+Disallow: /support
 
 # サイトマップ
 Sitemap: https://mnc.ryuya-dev.net/sitemap.xml
