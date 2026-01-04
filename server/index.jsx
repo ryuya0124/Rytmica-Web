@@ -126,6 +126,10 @@ const BaseLayout = ({ title, description, canonicalPath, children, extraHead }) 
         {children}
       </main>
       <Footer />
+      
+      {/* i18n スクリプト */}
+      <script src="/translations.js"></script>
+      <script src="/i18n.js"></script>
     </body>
   </html>
 )

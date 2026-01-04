@@ -6,42 +6,36 @@ export const TermsPage = () => (
   <section class="legal-page">
     <div class="container">
       <div class="legal-content">
-        <h1 class="legal-title">利用規約</h1>
-        <p class="legal-updated">最終更新日: 2026年1月2日</p>
+        <h1 class="legal-title" data-i18n="terms.title">利用規約</h1>
+        <p class="legal-updated" data-i18n="terms.updated">最終更新日: 2026年1月2日</p>
         
         <div class="legal-section">
-          <h2>はじめに</h2>
-          <p>本利用規約（以下「本規約」）は、Rytmica（以下「本アプリ」）の利用条件を定めるものです。</p>
-        </div>
-        
-        <div class="legal-section">
-          <h2>利用許諾</h2>
-          <p>本アプリはオープンソースソフトウェアとして提供されており、MITライセンスの下でライセンスされています。</p>
+          <h2 data-i18n="terms.licenseTitle">ライセンス</h2>
+          <p data-i18n="terms.licenseContent">本アプリはMITライセンスのもとで提供されるオープンソースソフトウェアです。</p>
           <ul>
-            <li>本アプリは無料で使用できます</li>
-            <li>ソースコードを自由に閲覧、改変、再配布することができます</li>
-            <li>商用利用も含め、制限なく自由に使用できます</li>
+            <li data-i18n="terms.licenseList1">ソースコードは自由に使用、コピー、変更、マージ、公開、配布できます</li>
+            <li data-i18n="terms.licenseList2">本ソフトウェアは「現状のまま」提供され、いかなる保証も行いません</li>
           </ul>
         </div>
         
         <div class="legal-section">
-          <h2>免責事項</h2>
-          <p>本アプリは「現状のまま」で提供されます。開発者は以下について一切の責任を負いません。</p>
-          <ul>
-            <li>本アプリの使用または使用不能から生じる損害</li>
-            <li>本アプリに含まれる情報の正確性、完全性、有用性</li>
-            <li>本アプリの中断、遅延、エラー</li>
-          </ul>
+          <h2 data-i18n="terms.freeTitle">無料提供</h2>
+          <p data-i18n="terms.freeContent">本アプリは完全無料で提供されています。広告も表示されません。</p>
         </div>
         
         <div class="legal-section">
-          <h2>知的財産権</h2>
-          <p>本アプリのソースコードはMITライセンスの下で提供されています。本アプリの名称「Rytmica」およびアイコンに関する権利は、開発者に帰属します。</p>
+          <h2 data-i18n="terms.disclaimerTitle">免責事項</h2>
+          <p data-i18n="terms.disclaimerContent">本アプリの使用によって生じた損害について、開発者は一切の責任を負いません。計算結果の正確性について保証するものではありません。</p>
         </div>
         
         <div class="legal-section">
-          <h2>お問い合わせ</h2>
-          <p>本規約に関するご質問がある場合は、<a href="https://github.com/ryuya0124/musical_note_calculator/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a>を通じてお問い合わせください。</p>
+          <h2 data-i18n="terms.ipTitle">知的財産権</h2>
+          <p data-i18n="terms.ipContent">本アプリで使用されている音ゲー関連の用語やゲーム名は、各権利者に帰属します。本アプリはこれらのゲームの公式アプリではありません。</p>
+        </div>
+        
+        <div class="legal-section">
+          <h2 data-i18n="terms.changesTitle">規約の変更</h2>
+          <p data-i18n="terms.changesContent">本規約は予告なく変更されることがあります。変更後も本アプリを継続して使用された場合、新しい規約に同意したものとみなします。</p>
         </div>
       </div>
     </div>

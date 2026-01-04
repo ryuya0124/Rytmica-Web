@@ -193,6 +193,49 @@ img { max-width: 100%; height: auto; }
 .header-nav a:hover { color: var(--text-primary); }
 .header-nav a:hover::after { width: 100%; }
 
+/* 言語切り替えボタン */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  margin-left: 16px;
+}
+
+.lang-toggle:hover {
+  background: rgba(124, 58, 237, 0.2);
+  border-color: var(--color-primary);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.lang-toggle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+}
+
+.lang-toggle-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.lang-toggle-text {
+  min-width: 1.5em;
+  text-align: center;
+}
+
 /* === メイン === */
 .main { 
   padding-top: calc(var(--header-height) + 40px); 
@@ -521,6 +564,77 @@ img { max-width: 100%; height: auto; }
 .platform-status.available { 
   color: #34D399;
   font-weight: 500;
+}
+
+/* プラットフォームリンク */
+.platform-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.platform-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: rgba(124, 58, 237, 0.1);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.platform-link:hover {
+  background: rgba(124, 58, 237, 0.2);
+  border-color: var(--color-primary);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.platform-link.available {
+  color: #34D399;
+  border-color: rgba(52, 211, 153, 0.3);
+  background: rgba(52, 211, 153, 0.1);
+}
+
+.platform-link.available:hover {
+  background: rgba(52, 211, 153, 0.2);
+  border-color: #34D399;
+  box-shadow: 0 0 12px rgba(52, 211, 153, 0.3);
+}
+
+.platform-link.coming-soon {
+  color: var(--text-muted);
+  cursor: default;
+  opacity: 0.7;
+}
+
+.platform-link.coming-soon:hover {
+  background: rgba(124, 58, 237, 0.1);
+  border-color: var(--glass-border);
+  color: var(--text-muted);
+  transform: none;
+}
+
+.platform-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}
+
+.platform-link-icon svg {
+  width: 14px;
+  height: 14px;
 }
 
 /* === フッター === */
