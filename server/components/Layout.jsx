@@ -27,7 +27,7 @@ export const Header = () => (
       </nav>
       <button class="lang-toggle" id="lang-toggle" aria-label="言語切替" data-i18n-aria="nav.langToggle">
         <span class="lang-toggle-icon"><GlobeIcon /></span>
-        <span class="lang-toggle-text" id="lang-toggle-text">EN</span>
+        <span class="lang-toggle-text" id="lang-toggle-text">日本語</span>
       </button>
     </div>
   </header>

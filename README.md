@@ -4,7 +4,7 @@ Rytmica アプリのランディングページ。
 
 ## 🌐 URL
 
-- **本番**: https://mnc.ryuya-dev.net
+- **本番**: https://rytmica.ryuya-dev.net
 - **Workers URL**: https://musical-note-calculator-web.ryuya1adgjmptw.workers.dev
 
 ## 🛠️ 技術スタック
@@ -47,7 +47,7 @@ pnpm deploy
 
 ## 📱 アプリ本体
 
-- **GitHub**: https://github.com/ryuya0124/musical_note_calculator
+- **GitHub**: https://github.com/ryuya0124/Rytmica
 - **プラットフォーム**: iOS, iPadOS, macOS, Android, Windows, Linux
 
 ## 📄 ライセンス

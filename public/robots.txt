@@ -1,5 +1,5 @@
 # Rytmica
-# https://mnc.ryuya-dev.net
+# https://rytmica.ryuya-dev.net
 
 User-agent: *
 Allow: /
@@ -8,4 +8,4 @@ Disallow: /terms
 Disallow: /support
 
 # サイトマップ
-Sitemap: https://mnc.ryuya-dev.net/sitemap.xml
+Sitemap: https://rytmica.ryuya-dev.net/sitemap.xml

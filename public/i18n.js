@@ -109,10 +109,10 @@
     // html lang 属性を更新
     document.documentElement.lang = lang;
 
-    // 言語ボタンのテキストを更新
+    // 言語ボタンのテキストを更新（現在の言語を表示）
     const langBtn = document.getElementById('lang-toggle-text');
     if (langBtn) {
-      langBtn.textContent = lang === 'ja' ? 'EN' : 'JA';
+      langBtn.textContent = lang === 'ja' ? '日本語' : 'English';
     }
   }
 

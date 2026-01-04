@@ -4,8 +4,14 @@ main = "server/index.jsx"
 compatibility_date = "2026-01-03"
 compatibility_flags = ["nodejs_compat"]
 
+# Workers.dev サブドメインを無効化（カスタムドメインを使用）
+workers_dev = false
+
+# プレビューURLを無効化
+preview_urls = false
+
 # 静的アセット配信
 [assets]
 directory = "./public"
 
-# ドメイン: mnc.ryuya-dev.net
+# ドメイン: rytmica.ryuya-dev.net

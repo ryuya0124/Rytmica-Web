@@ -20,17 +20,17 @@ const structuredData = {
       "operatingSystem": "iOS, iPadOS, macOS, Android, Windows, Linux",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
       "description": "音ゲーマーのための便利ツール。BPMと音符の計算、餡蜜の判定確認をサポート。",
-      "url": "https://mnc.ryuya-dev.net",
+      "url": "https://rytmica.ryuya-dev.net",
       "downloadUrl": "https://github.com/ryuya0124/musical_note_calculator/releases",
       "author": { "@type": "Person", "name": "ryuya0124", "url": "https://github.com/ryuya0124" },
-      "screenshot": "https://mnc.ryuya-dev.net/icon.jpg",
+      "screenshot": "https://rytmica.ryuya-dev.net/icon.jpg",
       "softwareVersion": "1.0.0",
       "license": "https://opensource.org/licenses/MIT"
     },
     {
       "@type": "WebSite",
       "name": "Rytmica",
-      "url": "https://mnc.ryuya-dev.net",
+      "url": "https://rytmica.ryuya-dev.net",
       "description": "音ゲーマーのための便利ツール",
       "inLanguage": "ja"
     },
@@ -75,7 +75,7 @@ const BaseLayout = ({ title, description, canonicalPath, children, extraHead }) 
       <link rel="icon" type="image/jpeg" href="/icon.jpg" />
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={`https://mnc.ryuya-dev.net${canonicalPath}`} />
+      <link rel="canonical" href={`https://rytmica.ryuya-dev.net${canonicalPath}`} />
       
       {/* 追加SEOメタタグ */}
       <meta name="author" content="ryuya0124" />
@@ -92,9 +92,9 @@ const BaseLayout = ({ title, description, canonicalPath, children, extraHead }) 
       {/* Open Graph */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:url" content={`https://mnc.ryuya-dev.net${canonicalPath}`} />
+      <meta property="og:url" content={`https://rytmica.ryuya-dev.net${canonicalPath}`} />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://mnc.ryuya-dev.net/icon.jpg" />
+      <meta property="og:image" content="https://rytmica.ryuya-dev.net/icon.jpg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content="Rytmica" />
@@ -104,7 +104,7 @@ const BaseLayout = ({ title, description, canonicalPath, children, extraHead }) 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content="https://mnc.ryuya-dev.net/icon.jpg" />
+      <meta name="twitter:image" content="https://rytmica.ryuya-dev.net/icon.jpg" />
       
       {/* パフォーマンス最適化 */}
       <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
