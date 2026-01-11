@@ -259,7 +259,7 @@ export const HomePage = () => (
               <span class="platform-link coming-soon">
                 <span class="platform-link-icon">{Icons.fdroid}</span>F-Droid (Coming Soon)
               </span>
-              <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.github}</span><span data-i18n="platforms.githubReleases">GitHub Releases</span>
               </a>
             </div>
