@@ -235,11 +235,8 @@ export const HomePage = () => (
               <a href="https://testflight.apple.com/join/6zXJy9qq" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.testflight}</span><span data-i18n="platforms.testflight">TestFlight</span>
               </a>
-              <span class="platform-link coming-soon">
-                <span class="platform-link-icon">{Icons.appStore}</span><span data-i18n="platforms.appStore">App Store (Coming Soon)</span>
-              </span>
-              <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link" target="_blank" rel="noopener noreferrer">
-                <span class="platform-link-icon">{Icons.github}</span>GitHub
+              <a href="https://apps.apple.com/jp/app/rytmica/id6757244924" class="platform-link available" target="_blank" rel="noopener noreferrer">
+                <span class="platform-link-icon">{Icons.appStore}</span><span data-i18n="platforms.appStore">App Store</span>
               </a>
             </div>
           </div>
@@ -250,8 +247,8 @@ export const HomePage = () => (
               <a href="https://testflight.apple.com/join/6zXJy9qq" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.testflight}</span>TestFlight
               </a>
-              <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link" target="_blank" rel="noopener noreferrer">
-                <span class="platform-link-icon">{Icons.github}</span>GitHub
+              <a href="https://apps.apple.com/jp/app/rytmica/id6757244924" class="platform-link available" target="_blank" rel="noopener noreferrer">
+                <span class="platform-link-icon">{Icons.appStore}</span><span data-i18n="platforms.appStore">App Store</span>
               </a>
             </div>
           </div>
@@ -263,7 +260,7 @@ export const HomePage = () => (
                 <span class="platform-link-icon">{Icons.fdroid}</span>F-Droid (Coming Soon)
               </span>
               <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link" target="_blank" rel="noopener noreferrer">
-                <span class="platform-link-icon">{Icons.github}</span>GitHub
+                <span class="platform-link-icon">{Icons.github}</span><span data-i18n="platforms.githubReleases">GitHub Releases</span>
               </a>
             </div>
           </div>
@@ -271,6 +268,9 @@ export const HomePage = () => (
             <div class="platform-icon">{Icons.windows}</div>
             <div class="platform-name">Windows</div>
             <div class="platform-links">
+              <span class="platform-link coming-soon">
+                <span class="platform-link-icon">{Icons.windows}</span><span data-i18n="platforms.microsoftStore">Microsoft Store (Coming Soon)</span>
+              </span>
               <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.github}</span>GitHub Releases
               </a>
