@@ -257,7 +257,7 @@ export const HomePage = () => (
             <div class="platform-name">Android</div>
             <div class="platform-links">
               <span class="platform-link coming-soon">
-                <span class="platform-link-icon">{Icons.fdroid}</span>F-Droid (Coming Soon)
+                <span class="platform-link-icon">{Icons.fdroid}</span>F-Droid<br />(Coming Soon)
               </span>
               <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.github}</span><span data-i18n="platforms.githubReleases">GitHub Releases</span>
@@ -269,7 +269,7 @@ export const HomePage = () => (
             <div class="platform-name">Windows</div>
             <div class="platform-links">
               <span class="platform-link coming-soon">
-                <span class="platform-link-icon">{Icons.windows}</span><span data-i18n="platforms.microsoftStore">Microsoft Store (Coming Soon)</span>
+                <span class="platform-link-icon">{Icons.windows}</span>Microsoft Store<br />(Coming Soon)
               </span>
               <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.github}</span>GitHub Releases
