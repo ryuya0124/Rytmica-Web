@@ -41,7 +41,7 @@ const translations = {
       title: '対応プラットフォーム',
       testflight: 'TestFlight',
       appStore: 'App Store',
-      microsoftStore: 'Microsoft Store (Coming Soon)',
+      microsoftStore: 'Microsoft Store',
       fdroid: 'F-Droid (Coming Soon)',
       githubReleases: 'GitHub Releases'
     },
@@ -146,7 +146,7 @@ const translations = {
       title: 'Platforms',
       testflight: 'TestFlight',
       appStore: 'App Store',
-      microsoftStore: 'Microsoft Store (Coming Soon)',
+      microsoftStore: 'Microsoft Store',
       fdroid: 'F-Droid (Coming Soon)',
       githubReleases: 'GitHub Releases'
     },

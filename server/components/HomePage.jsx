@@ -235,8 +235,9 @@ export const HomePage = () => (
               <a href="https://testflight.apple.com/join/6zXJy9qq" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.testflight}</span><span data-i18n="platforms.testflight">TestFlight</span>
               </a>
-              <a href="https://apps.apple.com/jp/app/rytmica/id6757244924" class="platform-link available" target="_blank" rel="noopener noreferrer">
-                <span class="platform-link-icon">{Icons.appStore}</span><span data-i18n="platforms.appStore">App Store</span>
+              <a href="https://apps.apple.com/jp/app/rytmica/id6757244924?itscg=30200&itsct=apps_box_badge&mttnsubad=6757244924" class="badge-link" target="_blank" rel="noopener noreferrer">
+                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/ja-jp?releaseDate=1767657600" alt="App Storeでダウンロード" class="app-store-badge" data-lang="ja" style="width: 224px; height: 82px; vertical-align: middle; object-fit: contain;" />
+                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1767657600" alt="Download on the App Store" class="app-store-badge" data-lang="en" style="display:none; width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
               </a>
             </div>
           </div>
@@ -247,8 +248,9 @@ export const HomePage = () => (
               <a href="https://testflight.apple.com/join/6zXJy9qq" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.testflight}</span>TestFlight
               </a>
-              <a href="https://apps.apple.com/jp/app/rytmica/id6757244924" class="platform-link available" target="_blank" rel="noopener noreferrer">
-                <span class="platform-link-icon">{Icons.appStore}</span><span data-i18n="platforms.appStore">App Store</span>
+              <a href="https://apple.co/4a19ncQ" class="badge-link" target="_blank" rel="noopener noreferrer">
+                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/ja-jp?releaseDate=1767657600" alt="App Storeでダウンロード" class="app-store-badge" data-lang="ja" style="width: 224px; height: 82px; vertical-align: middle; object-fit: contain;" />
+                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1767657600" alt="Download on the App Store" class="app-store-badge" data-lang="en" style="display:none; width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
               </a>
             </div>
           </div>
@@ -268,18 +270,9 @@ export const HomePage = () => (
             <div class="platform-icon">{Icons.windows}</div>
             <div class="platform-name">Windows</div>
             <div class="platform-links">
-              <div class="platform-link available">
-                <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
-                <ms-store-badge
-                  productid="9n7hmk8tn36x"
-                  productname="Rytmica"
-                  window-mode="direct"
-                  theme="auto"
-                  size="large"
-                  language="ja"
-                  animation="on">
-                </ms-store-badge>
-              </div>
+              <a href="https://apps.microsoft.com/detail/9n7hmk8tn36x" class="badge-link" target="_blank" rel="noopener noreferrer">
+                <img src="/badges/microsoft-store.svg" alt="Get it from Microsoft" class="microsoft-store-badge" />
+              </a>
               <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.github}</span>GitHub Releases
               </a>

@@ -637,6 +637,44 @@ img { max-width: 100%; height: auto; }
   height: 14px;
 }
 
+/* 公式バッジスタイル */
+.badge-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.badge-link:hover {
+  background: rgba(124, 58, 237, 0.08);
+  transform: translateY(-2px);
+}
+
+/* App Storeバッジ */
+.app-store-badge {
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Microsoft Storeバッジ */
+.microsoft-store-badge {
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
 /* === フッター === */
 .footer { 
   padding: 56px 0; 
