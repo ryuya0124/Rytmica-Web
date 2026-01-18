@@ -268,9 +268,18 @@ export const HomePage = () => (
             <div class="platform-icon">{Icons.windows}</div>
             <div class="platform-name">Windows</div>
             <div class="platform-links">
-              <span class="platform-link coming-soon">
-                <span class="platform-link-icon">{Icons.windows}</span>Microsoft Store<br />(Coming Soon)
-              </span>
+              <div class="platform-link available">
+                <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+                <ms-store-badge
+                  productid="9n7hmk8tn36x"
+                  productname="Rytmica"
+                  window-mode="direct"
+                  theme="auto"
+                  size="large"
+                  language="ja"
+                  animation="on">
+                </ms-store-badge>
+              </div>
               <a href="https://github.com/ryuya0124/musical_note_calculator/releases" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.github}</span>GitHub Releases
               </a>
