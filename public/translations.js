@@ -15,13 +15,17 @@ const translations = {
     },
     // ヒーローセクション
     hero: {
+      kicker: 'RHYTHM TOOLKIT / 2026',
+      tagline: 'リズムを、数字でつかむ。',
       subtitle: '音ゲーマーのための便利ツール。<br />BPMと音符の計算、餡蜜の判定確認をサポートします。',
+      consoleLabel: 'ライブ計算',
       noAds: '広告なし',
       openSource: 'オープンソース',
       download: 'ダウンロード'
     },
     // 機能セクション
     features: {
+      eyebrow: 'TOOLKIT',
       title: '主な機能',
       noteCalc: '音符計算',
       noteCalcDesc: '各音符（4分・8分・16分・付点など）の長さをミリ秒で表示します。',
@@ -38,6 +42,7 @@ const translations = {
     },
     // プラットフォームセクション
     platforms: {
+      eyebrow: 'EVERYWHERE',
       title: '対応プラットフォーム',
       testflight: 'TestFlight',
       appStore: 'App Store',
@@ -120,13 +125,17 @@ const translations = {
     },
     // Hero Section
     hero: {
+      kicker: 'RHYTHM TOOLKIT / 2026',
+      tagline: 'Measure the rhythm.<br />Master the timing.',
       subtitle: 'Handy tools for rhythm gamers.<br />Calculate BPM, note timing, and check simultaneous hit timing.',
+      consoleLabel: 'Live calculation',
       noAds: 'No Ads',
       openSource: 'Open Source',
       download: 'Download'
     },
     // Features Section
     features: {
+      eyebrow: 'TOOLKIT',
       title: 'Features',
       noteCalc: 'Note Calculator',
       noteCalcDesc: 'Display the length of each note (quarter, eighth, sixteenth, dotted, etc.) in milliseconds.',
@@ -143,6 +152,7 @@ const translations = {
     },
     // Platforms Section
     platforms: {
+      eyebrow: 'EVERYWHERE',
       title: 'Platforms',
       testflight: 'TestFlight',
       appStore: 'App Store',

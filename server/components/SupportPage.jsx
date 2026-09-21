@@ -40,7 +40,7 @@ export const SupportPage = () => (
           <h2 data-i18n="support.githubTitle">GitHubでの報告</h2>
           <p data-i18n="support.githubContent">バグ報告や機能リクエストは、GitHubのIssueページからお願いします。</p>
           <div class="support-contact">
-            <a href="https://github.com/ryuya0124/musical_note_calculator/issues" class="support-email-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ryuya0124/Rytmica/issues" class="support-email-link" target="_blank" rel="noopener noreferrer">
               <span class="support-icon"><ExternalLinkIcon /></span>
               <span data-i18n="support.githubLink">GitHubで Issue を作成する</span>
             </a>

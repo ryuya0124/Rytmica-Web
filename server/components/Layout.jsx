@@ -20,7 +20,7 @@ export const Header = () => (
       </a>
       <nav class="header-nav" role="navigation" aria-label="メインナビゲーション">
         <a href="/" data-i18n="nav.home">ホーム</a>
-        <a href="https://github.com/ryuya0124/musical_note_calculator" target="_blank" rel="noopener noreferrer" data-i18n="nav.github">GitHub</a>
+        <a href="https://github.com/ryuya0124/Rytmica" target="_blank" rel="noopener noreferrer" data-i18n="nav.github">GitHub</a>
         <a href="/privacy" data-i18n="nav.privacy">プライバシーポリシー</a>
         <a href="/terms" data-i18n="nav.terms">利用規約</a>
         <a href="/support" data-i18n="nav.support">サポート</a>
@@ -40,7 +40,7 @@ export const Footer = () => (
     <div class="footer-content">
       <nav class="footer-links" aria-label="フッターナビゲーション">
         <a href="/" data-i18n="nav.home">ホーム</a>
-        <a href="https://github.com/ryuya0124/musical_note_calculator" target="_blank" rel="noopener noreferrer" data-i18n="nav.github">GitHub</a>
+        <a href="https://github.com/ryuya0124/Rytmica" target="_blank" rel="noopener noreferrer" data-i18n="nav.github">GitHub</a>
         <a href="/privacy" data-i18n="nav.privacy">プライバシーポリシー</a>
         <a href="/terms" data-i18n="nav.terms">利用規約</a>
         <a href="/support" data-i18n="nav.support">サポート</a>
@@ -49,4 +49,3 @@ export const Footer = () => (
     </div>
   </footer>
 )
-

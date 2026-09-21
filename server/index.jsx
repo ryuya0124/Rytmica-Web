@@ -21,10 +21,10 @@ const structuredData = {
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
       "description": "音ゲーマーのための便利ツール。BPMと音符の計算、餡蜜の判定確認をサポート。",
       "url": "https://rytmica.ryuya-dev.net",
-      "downloadUrl": "https://github.com/ryuya0124/musical_note_calculator/releases",
+      "downloadUrl": "https://github.com/ryuya0124/Rytmica/releases",
       "author": { "@type": "Person", "name": "ryuya0124", "url": "https://github.com/ryuya0124" },
       "screenshot": "https://rytmica.ryuya-dev.net/icon.jpg",
-      "softwareVersion": "1.0.0",
+      "softwareVersion": "2.4.0",
       "license": "https://opensource.org/licenses/MIT"
     },
     {
@@ -79,7 +79,7 @@ const BaseLayout = ({ title, description, canonicalPath, children, extraHead }) 
       
       {/* 追加SEOメタタグ */}
       <meta name="author" content="ryuya0124" />
-      <meta name="theme-color" content="#667eea" />
+      <meta name="theme-color" content="#f4f2ec" />
       <meta name="format-detection" content="telephone=no" />
       <meta name="google" content="notranslate" />
       
@@ -113,7 +113,7 @@ const BaseLayout = ({ title, description, canonicalPath, children, extraHead }) 
       {/* Fonts */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       
       {/* CSS */}
       <link rel="stylesheet" href="/styles.css" />

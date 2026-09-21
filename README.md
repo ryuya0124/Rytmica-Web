@@ -29,7 +29,7 @@ Rytmica アプリのランディングページ。
 │   ├── robots.txt
 │   └── sitemap.xml
 ├── package.json
-└── wrangler.toml
+└── wrangler.jsonc
 ```
 
 ## 🚀 開発
