@@ -261,6 +261,7 @@ export const HomePage = () => (
             <div class="platform-icon">{Icons.apple}</div>
             <div class="platform-name">iOS / iPadOS</div>
             <div class="platform-links">
+              <a href="https://altstore.ryuya-dev.net/#altstore" class="platform-link available" target="_blank" rel="noopener noreferrer"><span data-i18n="platforms.altstore">AltStore PAL（配信準備中）</span></a>
               <a href="https://testflight.apple.com/join/6zXJy9qq" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.testflight}</span><span data-i18n="platforms.testflight">TestFlight</span>
               </a>

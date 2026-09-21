@@ -48,6 +48,7 @@ const translations = {
       appStore: 'App Store',
       microsoftStore: 'Microsoft Store',
       fdroid: 'F-Droid (Coming Soon)',
+      altstore: 'AltStore PAL（配信準備中）',
       githubReleases: 'GitHub Releases'
     },
     // フッター
@@ -158,6 +159,7 @@ const translations = {
       appStore: 'App Store',
       microsoftStore: 'Microsoft Store',
       fdroid: 'F-Droid (Coming Soon)',
+      altstore: 'AltStore PAL (coming soon)',
       githubReleases: 'GitHub Releases'
     },
     // Footer
