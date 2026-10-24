@@ -220,6 +220,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media (max-width: 430px) {
   .lang-toggle-text { display: none; }
   .hero-kicker { font-size: .62rem; }
+  .platforms .section-title { font-size: clamp(1.75rem, 8.5vw, 2.2rem); }
   .download-buttons { display: grid; grid-template-columns: 1fr; }
   .btn { width: 100%; }
   .hero-visual { min-height: 470px; transform: scale(.82); width: 116%; margin-left: -8%; margin-bottom: -85px; }
