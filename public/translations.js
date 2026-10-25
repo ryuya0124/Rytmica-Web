@@ -4,6 +4,10 @@
  */
 const translations = {
   ja: {
+    showcase: {
+      title: '数字を、<br />プレイの感覚へ。',
+      description: '入力したBPMから音符間隔を即座に計算。練習中も譜面研究中も、欲しい答えまで迷わせません。'
+    },
     // ナビゲーション
     nav: {
       home: 'ホーム',
@@ -115,6 +119,10 @@ const translations = {
     }
   },
   en: {
+    showcase: {
+      title: 'From numbers.<br />To your next play.',
+      description: 'Get note intervals instantly from any BPM. Find the answer you need, whether you are practicing or studying a chart.'
+    },
     // Navigation
     nav: {
       home: 'Home',

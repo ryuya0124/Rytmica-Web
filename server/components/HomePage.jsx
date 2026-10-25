@@ -160,90 +160,73 @@ const Icons = {
 export const HomePage = () => (
   <>
     <section class="hero" role="banner" aria-label="アプリ紹介">
-      <div class="container hero-layout">
+      <div class="container hero-grid">
         <div class="hero-copy">
           <div class="hero-kicker">
-            <span class="pulse-dot" aria-hidden="true"></span>
-            <span data-i18n="hero.kicker">RHYTHM TOOLKIT / 2026</span>
+            <img src="/icon.jpg" alt="" class="hero-kicker-icon" />
+            <span>Rhythm utility for every screen</span>
           </div>
-          <div class="hero-brand">
-            <img src="/icon.jpg" alt="" class="hero-icon" />
-            <span>RYTMICA</span>
-          </div>
-          <h1 class="hero-title" data-i18n="hero.tagline">リズムを、数字でつかむ。</h1>
+          <h1 class="hero-title"><span>Know the beat.</span><br />Own the timing.</h1>
+          <p class="hero-product-name">Rytmica</p>
           <p class="hero-subtitle" data-i18n="hero.subtitle">
             音ゲーマーのための便利ツール。<br />
             BPMと音符の計算、餡蜜の判定確認をサポートします。
           </p>
+          <div class="hero-badges">
+            <span class="badge"><span class="badge-icon">{Icons.noAds}</span><span data-i18n="hero.noAds">広告なし</span></span>
+            <span class="badge"><span class="badge-icon">{Icons.openSource}</span><span data-i18n="hero.openSource">オープンソース</span></span>
+          </div>
           <div class="download-buttons">
-            <a href="https://github.com/ryuya0124/Rytmica/releases" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <a href="https://apps.apple.com/jp/app/rytmica/id6757244924" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
               <span class="btn-icon">{Icons.download}</span><span data-i18n="hero.download">ダウンロード</span>
             </a>
             <a href="https://github.com/ryuya0124/Rytmica" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
               <span class="btn-icon">{Icons.github}</span><span data-i18n="nav.github">GitHub</span>
             </a>
           </div>
-          <div class="hero-badges">
-            <span class="badge"><span class="badge-icon">{Icons.noAds}</span><span data-i18n="hero.noAds">広告なし</span></span>
-            <span class="badge"><span class="badge-icon">{Icons.openSource}</span><span data-i18n="hero.openSource">オープンソース</span></span>
-          </div>
+          <p class="hero-platform-note">iOS · iPadOS · macOS · Windows · Android · Linux</p>
         </div>
-
-        <div class="tempo-console" aria-label="BPM 174の音符時間プレビュー">
-          <div class="console-header">
-            <span>Rytmica / <span data-i18n="hero.consoleLabel">ライブ計算</span></span>
-            <span class="console-status"><i></i> READY</span>
-          </div>
-          <div class="bpm-row">
-            <span class="bpm-label">BPM</span>
-            <strong>174</strong>
-            <span class="bpm-step">± 1</span>
-          </div>
-          <div class="rhythm-wave" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <div class="timing-table">
-            <div><span>1 / 4</span><strong>344.83</strong><small>ms</small></div>
-            <div><span>1 / 8</span><strong>172.41</strong><small>ms</small></div>
-            <div class="active"><span>1 / 16</span><strong>86.21</strong><small>ms</small></div>
-            <div><span>1 / 32</span><strong>43.10</strong><small>ms</small></div>
-          </div>
-          <div class="console-foot"><span>4 / 4</span><span>120 Hz precision</span><span>AUTO</span></div>
+        <div class="hero-visual" aria-label="Rytmicaのアプリ画面">
+          <div class="tempo-orbit tempo-orbit-one"><span>120</span><small>BPM</small></div>
+          <div class="tempo-orbit tempo-orbit-two"><span>250.00</span><small>ms</small></div>
+          <div class="phone phone-back"><img src="/screenshots/timing.png" alt="餡蜜チェッカー画面" /></div>
+          <div class="phone phone-front"><img src="/screenshots/notes.png" alt="音価計算画面" /></div>
+          <div class="beat-line" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
         </div>
       </div>
     </section>
 
     <section class="features" role="region" aria-labelledby="features-title">
       <div class="container">
-        <p class="section-eyebrow" data-i18n="features.eyebrow">TOOLKIT</p>
+        <p class="section-eyebrow">TOOLS / 01—06</p>
         <h2 id="features-title" class="section-title" data-i18n="features.title">主な機能</h2>
         <div class="features-grid">
-          <div class="feature-card" data-step="01">
+          <div class="feature-card">
             <div class="feature-icon">{Icons.musicNote}</div>
             <h3 class="feature-title" data-i18n="features.noteCalc">音符計算</h3>
             <p class="feature-description" data-i18n="features.noteCalcDesc">各音符（4分・8分・16分・付点など）の長さをミリ秒で表示します。</p>
           </div>
-          <div class="feature-card" data-step="02">
+          <div class="feature-card">
             <div class="feature-icon">{Icons.target}</div>
             <h3 class="feature-title" data-i18n="features.anmitsu">餡蜜チェッカー</h3>
             <p class="feature-description" data-i18n="features.anmitsuDesc">同時押ししてもPERFECTが出るか確認できます。多数のゲーム別プリセット搭載。</p>
           </div>
-          <div class="feature-card" data-step="03">
+          <div class="feature-card">
             <div class="feature-icon">{Icons.refresh}</div>
             <h3 class="feature-title" data-i18n="features.noteConvert">音符換算</h3>
             <p class="feature-description" data-i18n="features.noteConvertDesc">異なるBPM間で音符を変換します。</p>
           </div>
-          <div class="feature-card" data-step="04">
+          <div class="feature-card">
             <div class="feature-icon">{Icons.calculator}</div>
             <h3 class="feature-title" data-i18n="features.noteCount">音符回数計算</h3>
             <p class="feature-description" data-i18n="features.noteCountDesc">指定した時間内で各音符が何回発生するかを計算します。</p>
           </div>
-          <div class="feature-card" data-step="05">
+          <div class="feature-card">
             <div class="feature-icon">{Icons.drum}</div>
             <h3 class="feature-title" data-i18n="features.metronome">メトロノーム</h3>
             <p class="feature-description" data-i18n="features.metronomeDesc">高精度メトロノーム搭載。リズム練習に最適です。</p>
           </div>
-          <div class="feature-card" data-step="06">
+          <div class="feature-card">
             <div class="feature-icon">{Icons.settings}</div>
             <h3 class="feature-title" data-i18n="features.customize">カスタマイズ</h3>
             <p class="feature-description" data-i18n="features.customizeDesc">カスタム音符の追加、表示する音符の選択、ダークモード対応。</p>
@@ -252,22 +235,36 @@ export const HomePage = () => (
       </div>
     </section>
 
+    <section class="showcase" aria-labelledby="showcase-title">
+      <div class="container showcase-grid">
+        <div class="showcase-copy">
+          <p class="section-eyebrow">MADE FOR THE MOMENT</p>
+          <h2 id="showcase-title" class="showcase-title" data-i18n="showcase.title">数字を、<br />プレイの感覚へ。</h2>
+          <p data-i18n="showcase.description">入力したBPMから音符間隔を即座に計算。練習中も譜面研究中も、欲しい答えまで迷わせません。</p>
+          <div class="showcase-stat"><strong>6</strong><span>focused tools<br />in one app</span></div>
+        </div>
+        <div class="showcase-device">
+          <img src="/screenshots/count.png" alt="Rytmicaの音符回数計算画面" loading="lazy" />
+          <span class="showcase-caption">Precision, without friction.</span>
+        </div>
+      </div>
+    </section>
+
     <section class="platforms" role="region" aria-labelledby="platforms-title">
       <div class="container">
-        <p class="section-eyebrow" data-i18n="platforms.eyebrow">EVERYWHERE</p>
+        <p class="section-eyebrow">DOWNLOAD</p>
         <h2 id="platforms-title" class="section-title" data-i18n="platforms.title">対応プラットフォーム</h2>
         <div class="platforms-grid">
           <div class="platform-card">
             <div class="platform-icon">{Icons.apple}</div>
             <div class="platform-name">iOS / iPadOS</div>
             <div class="platform-links">
-              <a href="https://altstore.ryuya-dev.net/#altstore" class="platform-link available" target="_blank" rel="noopener noreferrer"><span data-i18n="platforms.altstore">AltStore PAL（配信準備中）</span></a>
               <a href="https://testflight.apple.com/join/6zXJy9qq" class="platform-link available" target="_blank" rel="noopener noreferrer">
                 <span class="platform-link-icon">{Icons.testflight}</span><span data-i18n="platforms.testflight">TestFlight</span>
               </a>
               <a href="https://apps.apple.com/jp/app/rytmica/id6757244924?itscg=30200&itsct=apps_box_badge&mttnsubad=6757244924" class="badge-link" target="_blank" rel="noopener noreferrer">
-                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/ja-jp?releaseDate=1767657600" alt="App Storeでダウンロード" class="app-store-badge" data-lang="ja" style="width: 224px; height: 82px; vertical-align: middle; object-fit: contain;" />
-                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1767657600" alt="Download on the App Store" class="app-store-badge" data-lang="en" style="display:none; width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+                <img src="/badges/app-store-ja.svg" alt="App Storeでダウンロード" class="app-store-badge" data-lang="ja" />
+                <img src="/badges/app-store-en.svg" alt="Download on the App Store" class="app-store-badge" data-lang="en" style="display:none" />
               </a>
             </div>
           </div>
@@ -279,8 +276,8 @@ export const HomePage = () => (
                 <span class="platform-link-icon">{Icons.testflight}</span>TestFlight
               </a>
               <a href="https://apple.co/4a19ncQ" class="badge-link" target="_blank" rel="noopener noreferrer">
-                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/ja-jp?releaseDate=1767657600" alt="App Storeでダウンロード" class="app-store-badge" data-lang="ja" style="width: 224px; height: 82px; vertical-align: middle; object-fit: contain;" />
-                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1767657600" alt="Download on the App Store" class="app-store-badge" data-lang="en" style="display:none; width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+                <img src="/badges/app-store-ja.svg" alt="App Storeでダウンロード" class="app-store-badge" data-lang="ja" />
+                <img src="/badges/app-store-en.svg" alt="Download on the App Store" class="app-store-badge" data-lang="en" style="display:none" />
               </a>
             </div>
           </div>
