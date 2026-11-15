@@ -24,7 +24,7 @@ const structuredData = {
       "downloadUrl": "https://github.com/ryuya0124/Rytmica/releases",
       "author": { "@type": "Person", "name": "ryuya0124", "url": "https://github.com/ryuya0124" },
       "screenshot": "https://rytmica.ryuya-dev.net/icon.jpg",
-      "softwareVersion": "2.5.0",
+      "softwareVersion": "2.5.4",
       "license": "https://opensource.org/licenses/MIT"
     },
     {
